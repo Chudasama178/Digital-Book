@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px blue;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    margin-top: 5px;
+    z-index: 100;
+}
+
+section nav .logo img {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+}
+
+section nav .login-btn {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+}
+
+section nav .login-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+section nav .login-btn a:hover {
+    color: lightblue;
+}
+
+.active_link {
+    color: orange;
+    position: relative;
+    display: flex;
+    border-bottom: 10px;
+
+}
+
+section ul li {
+    list-style: none;
+}
+
+section ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section ul li a:hover {
+    color: lightblue;
+}
+
+section .main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 5%;
+}
+
+section .main h1 {
+    position: relative;
+    font-size: 55px;
+    top: 20px;
+    left: 25px;
+    color: black;
+}
+
+section .main h1 span {
+    color: blue;
+}
+
+section .main p {
+    width: 100%;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    /* padding-left: 25px; */
+    color: black;
+}
+
+section .main .main-tag .main-btn {
+    background: blue;
+    padding: 10px 20px;
+    position: relative;
+    align-items: center;
+    top: 120px;
+    color: #fff;
+    text-decoration: none;
+    left: 25px;
+}
+
+section .main .main-img img {
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+    top: 45px;
+    margin: 30px;
+    height: 70vh;
+}
+section .main .main-img img:hover{
+    width: 99%;
+    height: 69vh;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: space-around;
+}
+
+.about .about-img img {
+    width: 98%;
+    opacity: 0.8;
+    position: relative;
+    left: 25px;
+    height: 70vh;
+}
+.about .about-img img:hover{
+    height: 69vh;
+    width: 97%;
+}
+
+.about .about-tag h1 {
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    text-decoration: slategray underline;
+}
+
+.about .about-tag p {
+    line-height: 22px;
+    color: #000;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.about .about-tag .about-btn {
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ab ul li {
+    padding: 10px;
+    align-items: center;
+}
+
+.ab ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: lightblue;
+
+}
+
+.ab ul p {
+    color: lightblue;
+}
+
+.ab ul h4 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+    text-align: center;
+}
+
+.footer-head {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    font-weight: 600;
+}
+
+#head {
+    text-align: center;
+  
+}
+
+.invalid-input {
+    font-size: 15px;
+    color: red;
+    margin-left: 15%;
+}
+
+.btn {
+    display: block;
+    margin-top: 25px;
+    margin-left: 15%;
+    padding: 10px;
+    width:70%;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.login-tbl {
+    border: 1px solid gray;
+    position: relative;
+    top: 100px;
+    margin-left: 35%;
+    height: 60vh;
+    width: 30%;
+}
+.login-admin-tbl{
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    height: 50vh;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.inputBox {
+    display: block;
+    margin-top: 25px;
+    margin-left: 15%;
+    padding: 10px;
+    width:70%;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+.login p span{
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}
+.login p{
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.admin{
+    margin-left: 20px;
+}
+.admin:hover{
+    background-color: lightcoral;
+}
+.admin-home{
+    position: relative;
+    top: 80px;
+    text-align: center;
+   
+}
+.search-product-box{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.book-list ul li{
+    display: inline-block;
+    padding: 5px;
+    width: 200px;
+}
+.admin-book-img{
+    height: 100px;
+}
+.AddBook{
+    border: 1px solid black;
+    height: 74vh;
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+    top: 13vh;
+}
+.book-img{
+    height: 35vh;
+    width: 100%;
+}
+.book-img:hover{
+    height: 33vh;
+    width: 98%;
+}
+.book-card{
+    background-color:lightblue;
+    width: 23.5%;
+    margin: 10px;
+    height: 60vh
+}
+  .feedback-container{
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .feedback-container h1{
+    text-align: center;
+  }
+  #commentForm{
+    margin-top: 20px;
+  }
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .feedback-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    
+  }
+  
+  .feedback-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .edit{
+    cursor: pointer;
+  }
+  .delete{
+    cursor: pointer;
+  }
+
+  .book-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.book-table th {
+    background-color: #f2f2f2;
+}
+
+.book-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.book-table tr:hover {
+    background-color: #ddd;
+}
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #ddd;
+}
+.feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.feedback-table th {
+    background-color: #f2f2f2;
+}
+
+.feedback-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.feedback-table tr:hover {
+    background-color: #ddd;
+}
+
+
+
+  
+
+
+
+
+
+
